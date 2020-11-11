@@ -4,7 +4,7 @@ with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
 --with ada.numerics.discrete_random;
 with ada.numerics.float_random; use ada.numerics.float_random;
 
-procedure Montyhall is
+procedure Monteyhall is
 
     ----------------------------------------------------------------------------
 
@@ -202,6 +202,8 @@ procedure Montyhall is
 
         end loop;
 
+      doors.Head := null;
+      doors.Tail := null;
 
     end Clear_Fields;
 
@@ -262,4 +264,4 @@ begin
     Put_Line("");
 
 
-end Montyhall;
+end Monteyhall;
